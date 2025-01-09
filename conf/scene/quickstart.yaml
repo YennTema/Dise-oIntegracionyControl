@@ -1,0 +1,36 @@
+box_size: 200
+neighbor_radius: 200
+prox_dist_max: 60
+
+# Entity data definitions
+entities_data:
+  EntitySubTypes:
+    - agents
+    - small_objects
+    - big_objects
+
+  Entities:
+    agents:
+      type: AGENT
+      num: 3
+      color: blue
+      diameter: 10
+      selective_behaviors:
+        aggr:
+          beh: MANUAL
+          sensed: 
+            - agents
+            - small_objects
+            - big_objects
+      
+    small_objects:
+      type: OBJECT
+      num: 8
+      diameter: 5
+      color: orange
+
+    big_objects:
+      type: OBJECT
+      num: 4
+      diameter: 15
+      color: red
