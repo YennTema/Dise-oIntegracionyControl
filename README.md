@@ -8,14 +8,13 @@
 - **Educational Resources**: Learn multi-agent simulation concepts with a series of interactive educational sessions.
 
 ![Vivarium demo](images/simulation.gif)
-ccc
+
 
 See a preliminary demo of the project on [this video](https://youtu.be/dnO-wo6Ns-8).
 
 ## 📥 Installation
 
 1- Clone the repository:
-nnn
 
 Before following the next instructions, make sure you have Python installed with a version between 3.10 and 3.12. 
 
